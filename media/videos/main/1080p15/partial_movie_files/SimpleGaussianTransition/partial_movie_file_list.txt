@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/1135500346_3250584222_1042566223.mp4'
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/4123245487_2230675760_4077821713.mp4'
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/3135195616_4129108094_3281781386.mp4'
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/187229159_2230675760_3765957887.mp4'
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/1231971222_902138941_1048458482.mp4'
-file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/partial_movie_files/SimpleGaussianTransition/3414965306_3168159723_3372713978.mp4'
