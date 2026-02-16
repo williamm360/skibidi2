@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p60/partial_movie_files/SurfaceAdaptiveHint/482584907_745554470_1321665123.mp4'
+file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p60/partial_movie_files/SurfaceAdaptiveHint/2686471020_1076740259_2606606108.mp4'
+file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p60/partial_movie_files/SurfaceAdaptiveHint/2686471020_2046115030_2047125654.mp4'
+file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p60/partial_movie_files/SurfaceAdaptiveHint/2686471020_2230675760_68242381.mp4'
+file 'file:/home/willm277/Desktop/manim_BEV/media/videos/main/1080p60/partial_movie_files/SurfaceAdaptiveHint/4259403051_4141849542_298715549.mp4'
