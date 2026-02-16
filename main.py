@@ -1,6 +1,9 @@
 from manim import *
+from manim import config as global_config
 import numpy as np
 from videosManim import VideoMobject
+
+global_config.renderer = "opengl"
 
 
 class IntroScene(Scene):
@@ -130,7 +133,13 @@ class IntroScene(Scene):
         )
 
         video_normal = (
+<<<<<<< HEAD
             VideoMobject(r"media/videos/main/1080p15/NormalOrientedHint.mp4")
+=======
+            VideoMobject(
+                r"/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/NormalOrientedHint.mp4"
+            )
+>>>>>>> 5c8a210 (asdasd)
             .scale(0.9)
             .to_edge(RIGHT)
         )
@@ -146,7 +155,13 @@ class IntroScene(Scene):
             run_time=1,
         )
         video_gaussian = (
+<<<<<<< HEAD
             VideoMobject(r"media/videos/main/1080p15/SmoothGaussianTransition.mp4")
+=======
+            VideoMobject(
+                r"/home/willm277/Desktop/manim_BEV/media/videos/main/1080p15/SmoothGaussianTransition.mp4"
+            )
+>>>>>>> 5c8a210 (asdasd)
             .scale(0.9)
             .to_edge(RIGHT)
         )
@@ -201,14 +216,26 @@ class IntroScene(Scene):
 class SurfaceAdaptiveHint:
     @staticmethod
     def subscene_animation(scene):
+<<<<<<< HEAD
         wood_texture = ImageMobject("images/main/wood.jpeg").scale(0.08).to_edge(RIGHT)
         snow_texture = (
             ImageMobject("images/main/snow.jpg")
+=======
+        wood_texture = (
+            ImageMobject("media/images/main/wood.jpeg").scale(0.08).to_edge(RIGHT)
+        )
+        snow_texture = (
+            ImageMobject("media/images/main/snow.jpg")
+>>>>>>> 5c8a210 (asdasd)
             .scale(0.4256)
             .next_to(wood_texture, UP * 1.3)
         )
         glass_texture = (
+<<<<<<< HEAD
             ImageMobject("images/main/glass.jpg")
+=======
+            ImageMobject("media/images/main/glass.jpg")
+>>>>>>> 5c8a210 (asdasd)
             .scale(0.133)
             .next_to(wood_texture, DOWN * 1.3)
         )
@@ -692,7 +719,11 @@ class BEVHint:
             Text("Image", font_size=32).rotate(90 * DEGREES).next_to(true_view, LEFT)
         )
 
+<<<<<<< HEAD
         image_cabin = ImageMobject("images/main/cabin.jpg")
+=======
+        image_cabin = ImageMobject("media/images/main/cabin.jpg")
+>>>>>>> 5c8a210 (asdasd)
         image_cabin.stretch_to_fit_height(true_view.height)
         image_cabin.stretch_to_fit_width(true_view.width)
         image_cabin.move_to(true_view)
